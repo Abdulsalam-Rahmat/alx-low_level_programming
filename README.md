@@ -1,1 +1,1 @@
-understanding low level programming language in c programming
+a readme file on manual debugging

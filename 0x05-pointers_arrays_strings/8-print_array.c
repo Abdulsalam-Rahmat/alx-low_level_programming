@@ -6,14 +6,15 @@
  * @a: pointer
  *@n: n
  */
+
 void print_array(int *a, int n)
 {
-	short c = 0;
+	int i = 0;
 
-	while (n-- > 0)
+	for (; i < n; i++)
 	{
-		printf("%d", a[c++]);
-		if (n != 0)
+		printf("%d", *(a + i));
+		if (i != (n - 1))
 			printf(",");
 	}
 
